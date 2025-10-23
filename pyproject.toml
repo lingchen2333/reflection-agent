@@ -1,0 +1,22 @@
+[project]
+name = "reflection-agent"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "lingchen",email = "138715540+lingchen2333@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<4.0.0"
+dependencies = [
+    "langchain (>=1.0.2,<2.0.0)",
+    "langchain-openai (>=1.0.1,<2.0.0)",
+    "langgraph (>=1.0.1,<2.0.0)",
+    "python-dotenv (>=1.1.1,<2.0.0)",
+    "black (>=25.9.0,<26.0.0)",
+    "isort (>=7.0.0,<8.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
